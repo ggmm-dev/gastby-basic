@@ -7,13 +7,12 @@ import './index.css'
 
 const Layout = ({ children, data }) => (
   <div>
-    <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
+    <Helmet>
+      <title>{data.site.siteMetadata.title}</title>
+      <meta name="description" content="Sample"/>
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    </Helmet>
+
     <Header siteTitle={data.site.siteMetadata.title} />
     <div
       style={{
