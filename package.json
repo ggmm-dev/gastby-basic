@@ -5,11 +5,16 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.247",
-    "gatsby-link": "^1.6.40",
+    "gatsby-link": "^1.6.45",
+    "gatsby-plugin-netlify": "^1.0.21",
     "gatsby-plugin-netlify-cms": "^2.0.1",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sass": "^1.0.26",
+    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-transformer-remark": "^1.7.44",
+    "lodash": "^4.17.10",
     "netlify-cms": "^1.9.2",
+    "prop-types": "^15.6.2",
     "react-bootstrap": "^0.32.1",
     "react-helmet": "^5.2.0"
   },

@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Header from '../components/header'
-import './index.css'
+import NavBar from '../components/NavBar'
+import './index.scss'
 
 const Layout = ({ children, data }) => (
   <div>
@@ -13,7 +13,7 @@ const Layout = ({ children, data }) => (
       <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </Helmet>
 
-    <Header siteTitle={data.site.siteMetadata.title} />
+    <NavBar siteTitle={data.site.siteMetadata.title} />
     <div
       style={{
         margin: '0 auto',

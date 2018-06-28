@@ -1,8 +1,30 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Gatsby + Netlify CMS Starter',
   },
-  plugins: ['gatsby-plugin-react-helmet'],
-  plugins: [`gatsby-plugin-netlify-cms`],
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: 'pages',
+      },
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [],
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/img`,
+        name: 'images',
+      },
+    },
+    'gatsby-plugin-netlify', // make sure to keep it last in the array
+  ],
 }
