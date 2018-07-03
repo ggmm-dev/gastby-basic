@@ -7,6 +7,8 @@ import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Checkbox from '@material-ui/core/Checkbox'
 import data from '../data/data'
 
+const event = typeof window !== 'undefined' && window
+
 export default class LaunchChecklist extends Component {
   constructor(props) {
     super(props)
