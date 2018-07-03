@@ -49,7 +49,6 @@ export default class LaunchChecklist extends Component {
           <div className="container" key={checklist.id}>
             <div className="banner">
               <div dangerouslySetInnerHTML={{ __html: checklist.icon }} />
-
               <h2 className="title">{checklist.category}</h2>
             </div>
             <FormControl component="fieldset">
