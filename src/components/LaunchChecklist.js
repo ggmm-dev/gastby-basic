@@ -48,9 +48,7 @@ export default class LaunchChecklist extends Component {
         {this.state.checklist.map(checklist => (
           <div className="container" key={checklist.id}>
             <div className="banner">
-              <div>
-                <div dangerouslySetInnerHTML={{ __html: checklist.icon }} />
-              </div>
+              <i className={checklist.icon} />
               <h2 className="title">{checklist.category}</h2>
             </div>
             <FormControl component="fieldset">

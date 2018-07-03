@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    icon: '<i className="fas fa-server" />',
+    icon: 'fas fa-server',
     category: 'DNS',
     content: [
       {
@@ -28,7 +28,7 @@ export default [
   },
   {
     id: 2,
-    icon: '<i className="fas fa-lock-alt" />',
+    icon: 'fas fa-lock-alt',
     category: 'SSL',
     content: [
       {
@@ -40,7 +40,7 @@ export default [
   },
   {
     id: 3,
-    icon: '<i className="fas fa-tv" />',
+    icon: 'fas fa-tv',
     category: 'Desktop Browsers',
     content: [
       {
@@ -67,7 +67,7 @@ export default [
   },
   {
     id: 4,
-    icon: '<i className="far fa-mobile-android-alt" />',
+    icon: 'far fa-mobile-android-alt',
     category: 'Mobile Browsers',
     content: [
       {
@@ -84,7 +84,7 @@ export default [
   },
   {
     id: 5,
-    icon: '<i className="fas fa-pencil-alt" />',
+    icon: 'fas fa-pencil-alt',
     category: 'Content',
     content: [
       {
@@ -126,7 +126,7 @@ export default [
   },
   {
     id: 6,
-    icon: '<i className="fal fa-file-invoice" />',
+    icon: 'fal fa-file-invoice',
     category: 'Forms',
     content: [
       {
@@ -148,7 +148,7 @@ export default [
   },
   {
     id: 7,
-    icon: '<i className="fas fa-tachometer" />',
+    icon: 'fas fa-tachometer',
     category: 'Performance',
     content: [
       {
@@ -176,7 +176,7 @@ export default [
   },
   {
     id: 8,
-    icon: '<i className="fas fa-database" />',
+    icon: 'fas fa-database',
     category: 'Infastructure',
     content: [
       {
@@ -223,7 +223,7 @@ export default [
   },
   {
     id: 9,
-    icon: '<i className="fab fa-accessible-icon" />',
+    icon: 'fab fa-accessible-icon',
     category: 'Accessibility',
     content: [
       {
