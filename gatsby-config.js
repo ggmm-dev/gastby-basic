@@ -5,6 +5,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    'gatsby-plugin-react-next', //allows React 16 to be used
     {
       resolve: 'gatsby-source-filesystem',
       options: {
